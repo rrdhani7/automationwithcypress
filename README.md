@@ -14,19 +14,19 @@ Link to testcase: https://docs.google.com/document/d/15C7u6Mg2vcpIK7LYRPB_4Kzqz3
 2. Browser: Tested in Chrome
 3. Summary: Checkout with invalid form of email doesn’t return error. 
 4. Steps to reproduce:
-    a. Open home
-    b. Click Menu. Assert ‘Menu’ title in top of page
-    c. Click Checkout button Green Tea
-    d. Fill Customer Info
+    1. Open home
+    2. Click Menu. Assert ‘Menu’ title in top of page
+    3. Click Checkout button Green Tea
+    4. Fill Customer Info
         E-mail: irfan@com
         Name: Irfan Hidayatullah
         Address: Malang
-    e. Fill Payment
+    5. Fill Payment
         Card Type: Visa
         Cart Number: 123
         Cardholder Name: Irfan
         Verification Code: 124
-    f. Click Place Order
+    6. Click Place Order
     Or just run cypress/integration/tests/checkout_with_invalid_email.js
 5. Expected Result: Checkout with invalid email should return error
 6. Actual Result: Checkout with invalid doesn’t return any error + redirect to menu page
