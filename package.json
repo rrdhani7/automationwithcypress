@@ -1,0 +1,26 @@
+{
+  "name": "automationwithcypress",
+  "version": "1.0.0",
+  "description": "Automation project to test http://www.practiceselenium.com with Cypress.",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "open": "node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrdhani7/automationwithcypress.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Rahmat Ramadhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrdhani7/automationwithcypress/issues"
+  },
+  "homepage": "https://github.com/rrdhani7/automationwithcypress#readme"
+}
